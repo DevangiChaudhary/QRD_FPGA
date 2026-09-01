@@ -216,7 +216,7 @@ limits and writes the encoded hex values to `mem/Amatrix.mem`.
 
 ```
 Add all source files from src/
-Add tb/tb_top_QRD.v as simulation source
+Add tb_top_QRD.v as simulation source
 Add mem/Amatrix.mem
 Run Behavioural Simulation
 ```
@@ -224,7 +224,7 @@ Run Behavioural Simulation
 **3. Run synthesis and implementation:**
 
 ```
-Add constraints/constraints.xdc
+Add constraint/constraints.xdc
 Run Synthesis
 Run Implementation
 Report Utilization and Timing Summary
