@@ -32,6 +32,8 @@ The design follows a **datapath-controller methodology**:
   registers, operating entirely under FSM control
 - All arithmetic operates on **Q12.20 fixed-point** representation
 
+![Architecture Diagram](flowchart.png)
+
 ### FSM State Sequence
 
 ```
