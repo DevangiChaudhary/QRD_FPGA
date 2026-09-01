@@ -43,7 +43,7 @@ module sqrt_cordic #(
     always @(posedge clk) begin
         done <= 0;
         if (cordic_valid) begin
-            result <= {{(WIDTH-24){1'b0}}, cordic_out} << 10;  // was << 8, now << 4 for Q12.20
+            result <= {{(WIDTH-24){1'b0}}, cordic_out} << 10;  // << 4 for Q12.20
             done   <= 1;
         end
     end
